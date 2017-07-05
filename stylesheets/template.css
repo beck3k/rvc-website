@@ -1,0 +1,20 @@
+.nav-wrapper {
+	border-top: 2px solid #2196f3;
+}
+
+.slider .indicators .indicator-item.active {
+  background-color: #2196f3;
+}
+
+.slider .indicators .indicator-item {
+	height: 8px;
+	width: 8px;
+}
+html, body, .block {
+	height: 100%;
+}
+
+.tabs.tabs-transparent .indicator {
+  background-color: #2196f3;
+}
+
