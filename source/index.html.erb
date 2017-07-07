@@ -39,9 +39,12 @@ title: RVC | Home
 <div id = "scroll-about"></div>
 <a name = "about"></a>
 
+<div class = "parallax-container">
+	<div class = "parallax"><%= image_tag "parallax_image_2.jpg" %></div>
+	<h2 class = "center-align white-text">About the river valley colonials</h2>
+</div>
+
 <div class = "container">
-	<h2 class = "center-align">About the river valley colonials</h2>
-	<div class = "divider"></div>
 	<p><%= lorem.sentences 8 %></p>
 	<%= image_tag "small_image_1.jpg", :class => "materialboxed" %>
 	<br>
@@ -53,19 +56,29 @@ title: RVC | Home
 
 <div class = "parallax-container">
 	<div class = "parallax"><%= image_tag "parallax_image_1.jpg" %></div>
-	<div style = "padding-bottom: 10%;"></div>
-	<div class = "card-panel">
-		<h1 class = "align-center">Brief history of RVC</h1>
-		<div class = "divider"></div>
-		<span><%= lorem.sentences 5 %></span>
+	<h2 class = "center-align">History</h1>
+</div>
+
+<div class = "container">
+	<div class = "row" style = "padding-top: 3%;">
+		<div class = "col s6">
+			<%= image_tag "small_image_3.jpg", :class => "materialboxed" %>
+		</div>
+		<div class = "col s6">
+			<span class = "right-align"><%= lorem.sentences 8 %></span>
+		</div>
 	</div>
 </div>
 
 <div id = "scroll-events"></div>
 <a name = "events"></a>
 
+<div class = "parallax-container">
+	<div class = "parallax"><%= image_tag "parallax_image_4.jpg" %></div>
+	<h2 class = "center-align white-text">Events</h1>
+</div>
+
 <div class = "container">
-	<h1 class = "center-align">Events</h1>
 	<ul class = "center-align">
 		<li><%= lorem.words 3%> - <%= lorem.date %></li>
 		<li><%= lorem.words 3%> - <%= lorem.date %></li>
